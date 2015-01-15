@@ -14,8 +14,7 @@ nav {
 
     /* Default behaviour for the background-color */
     background-color: #4C5A61;
-	animation: 200s infinite colorful;
-    -webkit-animation: 200s infinite colorful;
+
 }
 
 nav .wrapper {
@@ -53,7 +52,7 @@ nav .wrapper {
 .menu li a.root, .menu li a.root.active {
 	width: 12rem;
     color: transparent;
-    background-image: url(../img/logo.svg);
+    background-image: url(../img/logo.png);
     background-size: auto auto;
     background-position: center center;
     padding-left: 0;

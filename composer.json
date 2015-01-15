@@ -1,0 +1,23 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Lygneo": "src"
+        }
+    },
+    
+    "require": {
+        "monolog/monolog": "1.8.*",
+        "libchart/libchart": "dev-default",
+        "rain/raintpl": "dev-master",
+        "michelf/php-markdown": "1.4.*@dev",
+        "movim/modl": "dev-master",
+        "movim/sasl2": "dev-master",
+        "movim/moxl": "dev-ws",
+
+        "cboden/ratchet": "0.3.*",
+        "devristo/phpws": "dev-master",
+        "react/child-process": "0.5.*@dev",
+        "ratchet/pawl": "dev-master",
+        "react/socket-client": "0.4.*@dev"
+    }
+}
