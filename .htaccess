@@ -5,14 +5,14 @@ AddType application/x-web-app-manifest+json .webapp
     SetEnv HTTP_MOD_REWRITE 1
 
     # If you have troubles or use VirtualDocumentRoot
-    # uncomment this and set it to the path where your Movim installation is
+    # uncomment this and set it to the path where your Lygneo installation is
     # i.e.:
-    # Movim url: http://example.com
+    # Lygneo url: http://lygneo.net
     # RewriteBase /
-    # Movim url: http://some.example.com/movim
-    # RewriteBase /movim/
+    # Lygneo url: http://api.lygneo.net/lygneo
+    # RewriteBase /lygneo/
 
-    RewriteBase /movim/
+    RewriteBase /lygneo/
     RewriteEngine On
 
     RewriteCond %{REQUEST_FILENAME} !-f
